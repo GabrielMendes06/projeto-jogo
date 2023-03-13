@@ -17,7 +17,7 @@
           <p>Saldo: <span id="valorCarteira">0</span> dinheiros</p>
         </div>
         <div id="ganhos">
-          <p>Você está ganhando x dinheiros por segundo</p>
+          <p>Você está ganhando <span id="ganhoSegundo"></span> dinheiros por segundo</p>
           <br />
           <p>Você ganha <span id="ganhoClique">0</span> dinheiros a cada clique</p>
         </div>
@@ -27,43 +27,55 @@
           <h1>Minerador</h1>
           <img src="imagens/mineirador.jpg" alt="" />
           <p>Preço:<span id="precoMinerador"></span></p>
-          <p>Possui:</p>
-          <input type="button" value="Comprar" />
+          <p>Possui: <span id="possuiMinerador"></span></p>
+          <p>Recebe +1 por Clique</p> 
+          <p>Recebe +0 por Segundo</p>         
+          <input type="button" value="Comprar" onclick="comprarMinerador()"/>
         </div>
         <div class="melhorias" id="upgrade2">
           <h1>Robô</h1>
           <img src="imagens/robo.jpg" alt="" />
           <p>Preço: <span id="precoRobo"></span></p>
-          <p>Possui:</p>
-          <input type="button" value="Comprar" />
+          <p>Possui: <span id="possuiRobo"></span></p>
+          <p>Recebe +1 por Clique</p> 
+          <p>Recebe +1 por Segundo</p>
+          <input type="button" value="Comprar" onclick="comprarRobo()"/>
         </div>
         <div class="melhorias" id="upgrade3">
           <h1>Lojinhas</h1>
           <img src="imagens/lojinhas.jpg" alt="" />
           <p>Preço: <span id="precoLojinhas"> </span></p>
-          <p>Possui:</p>
-          <input type="button" value="Comprar" />
+          <p>Possui: <span id="possuiLojinhas"></span></p>
+          <p>Recebe +2 por Clique</p>
+          <p>Recebe +5 por Segundo</p> 
+          <input type="button" value="Comprar" onclick="comprarLojinhas()"/>
         </div>
         <div class="melhorias" id="upgrade4">
           <h1>Tecnologia</h1>
           <img src="imagens/tecnologia.jpg" alt="" />
           <p>Preço: <span id="precoTecnologia"> </span></p>
-          <p>Possui:</p>
-          <input type="button" value="Comprar" />
+          <p>Possui: <span id="possuiTecnologia"></span></p>
+          <p>Recebe +5 por Clique</p> 
+          <p>Recebe +10 por Segundo</p>
+          <input type="button" value="Comprar" onclick="comprarTecnologia()"/>
         </div>
         <div class="melhorias" id="upgrade5">
           <h1>Industria</h1>
           <img src="imagens/industria.jpg" alt="" />
           <p>Preço: <span id="precoIndustria"> </span></p>
-          <p>Possui:</p>
-          <input type="button" value="Comprar" />
+          <p>Possui: <span id="possuiIndustria"></span></p>
+          <p>Recebe +10 por Clique</p> 
+          <p>Recebe +30 por Segundo</p>
+          <input type="button" value="Comprar" onclick="comprarIndustria()"/>
         </div>
         <div class="melhorias" id="upgrade6">
           <h1>Banco</h1>
           <img src="imagens/banco.jpg" alt="" />
           <p>Preço: <span id="precoBanco"> </span></p>
-          <p>Possui:</p>
-          <input type="button" value="Comprar" />
+          <p>Possui: <span id="possuiBanco"></span></p>
+          <p>Recebe +20 por Clique</p> 
+          <p>Recebe +50 por Segundo</p>
+          <input type="button" value="Comprar" onclick="comprarBanco()"/>
         </div>
       </div>
     </main>
